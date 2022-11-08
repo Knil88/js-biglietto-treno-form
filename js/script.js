@@ -19,6 +19,8 @@ function (event)
 
         let salePrice =(price - discount).toFixed(2);
 
+        salePrice = document.getElementById("ticketprice");
+
         console.log(salePrice,"€");
          }
          else if(age == "over65"){
@@ -26,12 +28,16 @@ function (event)
             let overPrice = (price - overDiscount).toFixed(2);
 
             console.log(overPrice,"€").toFixed(2);
+
+            overPrice = document.getElementById("ticketprice");
          }
          else(age == maggiorenne){
             price = price;
+
+            price = document.getElementById("ticketprice");
          }
-         name = document.getElementById("ticketname")
-         `${name}`
+        
+         
 
          
 
