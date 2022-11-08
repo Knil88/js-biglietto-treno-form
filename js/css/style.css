@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: white;
+    font-family: sans-serif;
+    background-image: url(https://www.confartigianato.it/wp-content/uploads/2016/06/trenitalia-uai-800x342.png);
+    background-size: cover;
+
+}
+
+.container , .containerticket{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    padding: 15px;
+    
+    text-align: center;
+    width: 60%;
+    margin: 50px auto;
+}
+.containerticket{
+    display: none;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+
+}
+#generate , #reset{
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+   margin-top: 25px;
+   margin-left: 15px;
+   margin-right: 15px;
+   cursor: pointer;
+   background-color: white;
+   transition: ease-in-out 1s;
+   font-weight: bold;
+
+}
+
+
+#generate:hover {
+    color: greenyellow;
+    background-color: blue;
+    transform: scale(1.2);
+    
+}
+#reset:hover {
+    color:yellowgreen;
+    background-color: red;
+    transform: scale(1.2);
+    
+}
+
