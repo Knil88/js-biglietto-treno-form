@@ -79,5 +79,7 @@ btnReset.addEventListener("click",
 function (event){
     event.preventDefault()
     document.getElementById("myform").reset();
+    
+
 }
 )

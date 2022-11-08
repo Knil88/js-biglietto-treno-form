@@ -25,6 +25,15 @@ body{
     display: none;
 }
 
+.info{
+    margin-bottom: 10px;
+}
+
+.inputtrain{
+    border-radius: 5px;
+    text-align: center;
+}
+
 .flex-container{
     display: flex;
     justify-content: space-between;
