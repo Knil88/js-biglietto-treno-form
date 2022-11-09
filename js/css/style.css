@@ -9,6 +9,7 @@ body{
     font-family: sans-serif;
     background-image: url(https://www.confartigianato.it/wp-content/uploads/2016/06/trenitalia-uai-800x342.png);
     background-size: cover;
+    height: 100vh;
 
 }
 
