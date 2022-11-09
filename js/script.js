@@ -68,7 +68,7 @@ function(event) {
           
             console.log(price,"€");
              }
-             let myTicket = document.querySelector(".containerticket");
+             const myTicket = document.querySelector(".containerticket");
              myTicket.style.display="block";
 }
 )
@@ -79,7 +79,7 @@ btnReset.addEventListener("click",
 function (event){
     event.preventDefault()
     document.getElementById("myform").reset();
-    let mynoTicket = document.querySelector(".containerticket");
+    const mynoTicket = document.querySelector(".containerticket");
     mynoTicket.style.display="none";
    
 
