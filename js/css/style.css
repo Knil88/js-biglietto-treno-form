@@ -45,6 +45,10 @@ body{
     justify-content: space-between;
 
 }
+.flex-container{
+    width: 70%;
+    margin: 0px 81px;
+}
 #generate , #reset{
     border: none;
     border-radius: 10px;
