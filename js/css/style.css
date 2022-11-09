@@ -39,7 +39,7 @@ body{
     text-align: center;
 }
 
-.flex-container{
+.flex-container,.flex-container-2{
     display: flex;
     justify-content: space-between;
 
@@ -58,6 +58,9 @@ body{
 
 }
 
+.remove{
+    display: none;
+}
 
 #generate:hover {
     color: greenyellow;

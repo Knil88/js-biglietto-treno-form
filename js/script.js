@@ -79,7 +79,9 @@ btnReset.addEventListener("click",
 function (event){
     event.preventDefault()
     document.getElementById("myform").reset();
-    
+    let mynoTicket = document.querySelector(".containerticket");
+    mynoTicket.style.display="none";
+   
 
 }
 )
